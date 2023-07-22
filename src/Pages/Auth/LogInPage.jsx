@@ -99,8 +99,8 @@ function LogInPage() {
             type="submit"
             onClick={() =>
               setLogInFormData({
-                email: "adarshbalika@gmail.com",
-                password: "adarshbalika",
+                email: "isha@gmail.com",
+                password: "ishapatel",
               })
             }
           >
