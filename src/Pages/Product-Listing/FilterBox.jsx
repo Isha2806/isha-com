@@ -151,7 +151,7 @@ function FilterBox() {
               value="POPULARITY"
               onChange={handleSortFilterChange}
             />{" "}
-            Popularity
+            Popular
           </label>
           <label>
             <input
@@ -161,7 +161,7 @@ function FilterBox() {
               value="BESTSELLER_FIRST"
               onChange={handleSortFilterChange}
             />{" "}
-            Bestseller First
+            Bestseller 
           </label>
           <label>
             <input
