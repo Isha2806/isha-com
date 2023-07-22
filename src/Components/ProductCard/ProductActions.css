@@ -22,11 +22,13 @@
 .wishlist-button {
   background-color: var(--color-6);
   color: var(--color-3);
+  border: 1px solid brown;
 }
 
 .cart-button {
   background-color: var(--color-1);
   color: var(--color-3);
+  border: 1px solid brown;
 }
 
 .product-actions .heart-icon,
@@ -64,9 +66,9 @@
 }
 
 .remove-from-wishlist-button {
-  background-color: transparent;
-  color: var(--color-6);
-  border: 1px solid var(--color-6);
+  background-color: var(--color-6);
+  color: var(--color-3);
+  border: 1px solid brown;
 }
 
 .remove-from-wishlist-button:hover {
