@@ -35,6 +35,14 @@ function NavLinks({ isMobileNavLinks = false, mobileNavLinkClickHandler }) {
       >
         Explore
       </NavLink>
+
+      <NavLink
+        className="navbar-link"
+        to="/categories"
+        onClick={isMobileNavLinks && mobileNavLinkClickHandler}
+      >
+        Categories
+      </NavLink>
    
       <NavLink
         className="navbar-link"
@@ -43,6 +51,7 @@ function NavLinks({ isMobileNavLinks = false, mobileNavLinkClickHandler }) {
       >
         Wishlist
       </NavLink>
+
     </div>
   );
 }
