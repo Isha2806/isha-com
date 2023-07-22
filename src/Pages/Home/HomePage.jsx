@@ -30,7 +30,7 @@ function HomePage() {
     ));
 
   const bestsellarBooksDisplay = bestsellerbooks
-    ?.slice(0, 6)
+    ?.slice(0, 8)
     ?.map((book) => <ProductCard key={book._id} product={book} />);
 
   function handleViewBestsellersBtn() {

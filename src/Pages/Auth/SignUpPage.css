@@ -64,7 +64,7 @@ input[type="password"] {
   background-color: var(--color-1);
   border: none;
   border-radius: 5px;
-  color: var(--color-2);
+  color: black;
   cursor: pointer;
 }
 

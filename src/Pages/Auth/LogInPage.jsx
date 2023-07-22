@@ -47,7 +47,9 @@ function LogInPage() {
 
   useEffect(() => {
     if (loginData.isLoggedIn) {
-      navigate(location?.state?.from || "/", { replace: true });
+      // console.log(location?.state?.from);
+      navigate("/" || "/", { replace: true });
+      // navigate(location?.state?.from || "/", { replace: true });
     }
   }, [loginData.isLoggedIn, navigate, location]);
 
