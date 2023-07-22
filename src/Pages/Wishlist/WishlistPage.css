@@ -1,0 +1,28 @@
+.wishlist-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 15px auto;
+}
+
+.wishlist-heading {
+  font-size: 2rem;
+}
+
+.wishlist-content {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.empty-wishlist-message-box {
+  gap: 1rem;
+}
