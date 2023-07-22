@@ -8,7 +8,6 @@ import NavSearchBox from "./NavSearchBox";
 import NavLinks from "./NavLinks";
 import MobileNavLinks from "./MobileNavLinks";
 //Assets
-import ColorLogo from "../../assets/Colorlogo.png";
 import { FiShoppingBag } from "react-icons/fi";
 import { BiUserCircle } from "react-icons/bi";
 //CSS

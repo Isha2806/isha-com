@@ -1,8 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./LogInPage.css";
-import logInImg from "../../assets/LogInPageImg.jpg";
-import logo from "../../assets/Colorlogo.png";
 import { AuthContext } from "../../Contexts/AuthContext";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
@@ -56,7 +54,7 @@ function LogInPage() {
   return (
     <div className="login-page">
       <div className="quote-box">
-        <img src="https://static.sadhguru.org/d/46272/1686731673-isha-logo-main-menu.svg" alt="ishaBook" className="book-image" />
+        <img src="https://static.sadhguru.org/d/46272/1664421372-shiva-wallpaper-metallic-mb.jpg" alt="ishaBook" className="book-image" />
         <div className="overlay"></div>
         <div className="quote">
           "There is no friend as loyal as a book." - Ernest Hemingway

@@ -1,6 +1,6 @@
 import "./PageNotFound.css";
-import Image404 from "../assets/404.jpg";
 import useDocumentTitle from "../Hooks/useDocumentTitle";
+import imag404 from '../assets/404.jpg'
 
 function PageNotFound() {
   useDocumentTitle("Page Not Found | isha-com");
@@ -16,7 +16,7 @@ function PageNotFound() {
         But fear not! We're busy unraveling this bookish mystery and will guide
         you back to the right page before you can say "bestseller."
       </p>
-      <img src={Image404} alt="Women Reading a Book" />
+      <img src = {imag404} alt=" Reading a Book" />
       <p>Sit tight and let the magic unfold. Happy reading!</p>
     </div>
   );

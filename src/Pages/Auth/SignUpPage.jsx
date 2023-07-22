@@ -1,8 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./SignUpPage.css";
-import signUpImg from "../../assets/SignUpPageImg.jpg";
-import logo from "../../assets/Colorlogo.png";
 import { AuthContext } from "../../Contexts/AuthContext";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import useDocumentTitle from "../../Hooks/useDocumentTitle";
@@ -192,12 +190,8 @@ function SignUpPage() {
         </div>
       </div>
       <div className="quote-box">
-        <img src={signUpImg} alt="Book" className="book-image" />
+        <img src="https://static.sadhguru.org/d/46272/1664421372-shiva-wallpaper-metallic-mb.jpg" alt="Book" className="book-image" />
         <div className="overlay"></div>
-        <div className="quote">
-          "It is our choices, Harry, that show what we truly are, far more than
-          our abilities." - Albus Dumbledore
-        </div>
       </div>
     </div>
   );
